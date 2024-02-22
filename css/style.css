@@ -1,0 +1,331 @@
+@font-face {
+    font-family: "GT Eesti Pro Display";
+    src: url("../fonts/GTEestiProDisplay-Regular.ttf")
+}
+html {
+    font-size: 24px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 70px;
+    width: 100%;
+    font-family: "GT Eesti Pro Display", sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 923px;
+    border-radius: 30px;
+    background-color: #5D4BB9;
+    padding-top: 40px;
+    /* padding-left: 140px; */
+    position: relative;
+    margin-bottom: 317px;
+}
+
+.top-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-bottom: 62px; */
+    padding: 0 10%;
+    margin-bottom: 62px;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 6%;
+}
+
+a {
+    text-decoration: none;
+}
+.navigation {
+    width: 60%;
+}
+
+.nav-list a {
+    color: #fff;
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav-item {
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.nav-item:nth-child(4) {
+    flex-shrink: 0;
+}
+
+.btn {
+    border-radius: 40px;
+    background-color: #FBFBFB;
+    color: #5F4CDC;
+    line-height: 3em;
+    text-align: center;
+}
+
+.header-btn {
+    width: 200px;
+    margin-right: 0;
+    height: 46px;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.top-2 {
+    display: flex;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    border: 1px solid black;
+}
+
+.head-text {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0 0 10%;
+    border: 1px solid black;
+}
+
+h1 {
+    /* margin-top: 0;
+    margin-bottom: 56px; */
+    margin: 0 0 56px 0;
+    font-size: 3.3rem;
+    line-height: 64px;
+    font-weight: 700;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.head-text p {
+    margin-top: 0;
+    margin-bottom: 53px;
+    font-size: 1.5rem;
+    line-height: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.try-btn {
+    margin-left: 0;
+    width: 33%;
+    height: 57px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.img-top {
+    position: relative;
+    width: 35%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.ellipse {
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
+
+.iphone-14 {
+    position: absolute;
+    width: 60.5%;
+    /* left: -30px; */
+    left: 2%;
+    top: 6.6%;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.iphone-15 {
+    position: absolute;
+    width: 62%;
+    left: 35%;
+    top: 10.3%;
+    z-index: 2;
+    max-width: 100%;
+}
+
+.smaller-container {
+    position: absolute;
+    top: 90%;
+    left: 23%;
+    border-radius: 40px;
+    width: 54%;
+    height: 180px;
+    background-color: #fff;
+    box-shadow: 10px 12px 45px 0px rgba(93, 75, 185, 0.15);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.for {
+    text-align: center;
+    width: 30%;
+}
+.smaller-container p {
+    font-weight: 400;
+    color: #0A1E51;
+}
+.system {
+    margin: auto;
+    width: 90%;
+    border: 1px solid black;
+}
+h2 {
+    font-size: 2.7rem;
+    font-weight: 400;
+    text-align: center;
+    color: #0A1E51;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.do {
+    margin: auto;
+    width: 93%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 450px;
+    margin-bottom: 80px;
+}
+.can {
+    text-align: center;
+    width: 25%;
+    height: max-content;
+    max-height: 100%;
+    overflow: auto;
+    border: 1px solid black;
+}
+h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #151414;
+}
+.do p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 40px;
+}
+.advantages-container {
+    margin: auto;
+    width: 90%;
+    height: 999px;
+    border-radius: 30px;
+    background-color: #5F4CDC;
+    padding-top: 100px;
+}
+.advantages-container__header {
+    display: flex;
+    justify-content: center;
+}
+.header__title {
+    margin: 0;
+}
+.advantages-container__content{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.advantages-1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 56px auto 92px auto;
+}
+.card {
+    background-color:#FBFBFB;
+    border-radius: 30px;
+    width: 30%;
+    height: 260px;
+    padding: 40px 37px 30px;
+
+}
+.advantages-container h2 {
+    color: #fff;
+}
+.text {
+    font-size: 0.6rem;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #151414;
+    margin-top: 0;
+}
+.item {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 40px;
+    color: #5D4BB9;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+.advantages-2 {
+    position: relative;
+    width: 100%;
+    height: 20% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.img-2 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 13%;
+    height: 100%;
+    border: 1px solid black;
+}
+.ellipse-2 {
+    width: 100%;
+    position: absolute;
+    /* left: 14%;
+    top: -5%; */
+}
+.iphone-16 {
+    width: 100%;
+    position: absolute;
+    /* left: 20%;
+    top: -10%; */
+    z-index: 2;
+}
+.advantages-text {
+    width: 47%;
+}
+.advantages-text p {
+    color: #F3F3F3;
+}
