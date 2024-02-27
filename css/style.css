@@ -28,7 +28,6 @@ html {
     border-radius: 30px;
     background-color: #5D4BB9;
     padding-top: 40px;
-    /* padding-left: 140px; */
     position: relative;
     margin-bottom: 317px;
 }
@@ -38,7 +37,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-bottom: 62px; */
     padding: 0 10%;
     margin-bottom: 62px;
     border: 1px solid black;
@@ -103,7 +101,6 @@ a {
     display: flex;
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     border: 1px solid black;
 }
 
@@ -116,8 +113,6 @@ a {
 }
 
 h1 {
-    /* margin-top: 0;
-    margin-bottom: 56px; */
     margin: 0 0 56px 0;
     font-size: 3.3rem;
     line-height: 64px;
@@ -188,7 +183,7 @@ h1 {
     background-color: #fff;
     box-shadow: 10px 12px 45px 0px rgba(93, 75, 185, 0.15);
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-evenly;
 }
 .for {
@@ -258,6 +253,7 @@ h4 {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    height: 100%;
 }
 .advantages-1 {
     width: 80%;
@@ -295,10 +291,11 @@ h4 {
 .advantages-2 {
     position: relative;
     width: 100%;
-    height: 20% !important;
+    height: 20%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-left: 10%;
     border: 1px solid black;
 }
 .img-2 {
@@ -313,18 +310,14 @@ h4 {
 .ellipse-2 {
     width: 100%;
     position: absolute;
-    /* left: 14%;
-    top: -5%; */
 }
 .iphone-16 {
-    width: 100%;
     position: absolute;
-    /* left: 20%;
-    top: -10%; */
     z-index: 2;
 }
 .advantages-text {
-    width: 47%;
+    width: 30%;
+    margin-left: 40px;
 }
 .advantages-text p {
     color: #F3F3F3;
